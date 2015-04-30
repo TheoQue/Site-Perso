@@ -43,6 +43,7 @@ a:focus,
 a:active,
 a.active {
     outline: none;
+    text-decoration: none;
 }
 
 a {
@@ -70,6 +71,7 @@ h6 {
 .img-centered {
     margin: 0 auto;
 }
+
 @media(max-width: 500px){
     .screen-only{
         display: none;
@@ -392,11 +394,6 @@ section h3.section-subheading {
     font-weight: 400;
 }
 
-@media(min-width:768px) {
-    section {
-        padding: 150px 0;
-    }
-}
 
 .service-heading {
     margin: 15px 0;
